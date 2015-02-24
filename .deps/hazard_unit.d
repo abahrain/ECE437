@@ -1,0 +1,1 @@
+hazard_unit: pipeline_execute_memory_if.vho pipeline_memory_writeback_if.vho datapath_cache_if.vho pipeline_fetch_decode_if.vho cpu_types_pkg.vho pipeline_decode_execute_if.vho hazard_unit_if.vho hazard_unit.svo

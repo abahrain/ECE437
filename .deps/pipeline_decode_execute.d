@@ -1,0 +1,1 @@
+pipeline_decode_execute: cpu_types_pkg.vho pipeline_decode_execute_if.vho pipeline_decode_execute.svo
