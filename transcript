@@ -1,0 +1,30 @@
+# vsim -L altera_mf_ver -L altera_ver -L cycloneii_ver -L cycloneive_ver -do {run -all; exit;} -c -wlf system_tb.wlf work.system_tb 
+# //  ModelSim SE-64 10.2b May 16 2013 Linux 2.6.32-504.8.1.el6.x86_64
+# //
+# //  Copyright 1991-2013 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading sv_std.std
+# Loading work.system_tb
+# Loading work.cpu_types_pkg
+# Loading work.system_if
+# Loading work.test
+# Loading work.system
+# Loading work.cpu_ram_if
+# ** Error: (vsim-3033) source/system.sv(49): Instantiation of 'singlecycle' failed. The design unit was not found.
+#         Region: /system_tb/DUT
+#         Searched libraries:
+#             /home/ecegrid/a/ece437l/libs/altera_mf_ver
+#             /home/ecegrid/a/ece437l/libs/altera_ver
+#             /home/ecegrid/a/ece437l/libs/cycloneii_ver
+#             /home/ecegrid/a/ece437l/libs/cycloneive_ver
+#             /home/ecegrid/a/mg201/ece437/processors/work
+# Loading work.ram
+# Loading altera_mf_ver.altsyncram
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Error loading design
